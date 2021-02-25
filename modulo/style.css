@@ -1,0 +1,13 @@
+body{
+
+}
+
+.theme-white{
+    background: #fff;
+    color: #333;
+}
+
+.theme-black{
+	background: #333;
+    color: #fff;
+}
