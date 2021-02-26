@@ -3,31 +3,59 @@ body{
 }
 
 .theme-white{
-    background: #fff;
-    color: #333;
+	background: #fff !important;
+	color: #333 !important;
 }
 
 .theme-black{
-	background: #333;
-    color: #fff;
+	background: #333 !important;
+	color: #fff !important;
 }
 
 .painel{
+	width: 90px;
+	position: fixed;
+	z-index: 99;
+}
 
+.painel-group{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 3px;
 }
 
 .painel-button-w{
-
+	padding: 10px;
+	box-shadow: 0 0 0 0;
+	border: 0 none;
+	outline: 0;
+	font-size: 20px;
+	font-weight: bold;
+	background: #777;
+	cursor: pointer;
+	border-radius: 3px;
+	color: #fff;
 }
 
 .painel-button-b{
-
+	padding: 10px;
+	box-shadow: 0 0 0 0;
+	border: 0 none;
+	outline: 0;
+	font-size: 20px;
+	font-weight: bold;
+	background: #777;
+	cursor: pointer;
+    border-radius: 3px;
+    color: #333;
 }
 
 .painel-left-bottom{
-
+	bottom: 51px;
+	left: 10px;
 }
 
 .painel-right-bottom{
-	
+	bottom: 51px;
+	right: 10px;
 }
